@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>公告 | MOPO合同会社</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f3ef; /* 柔和米色背景 */
+        color: #333;
+        line-height: 1.8;
+    }
+
+    /* 頁首 */
+    header {
+        text-align: center;
+        padding: 40px 20px 25px; /* 稍微縮小 */
+        background-color: #fdfbf9;
+        border-bottom: 1px solid #e5e1db;
+    }
+    header h1 {
+        font-size: 32px;
+        letter-spacing: 4px;
+        margin: 0;
+        font-weight: 700; /* 粗體 */
+        color: #bfa76f; /* 淡金色字體 */
+        animation: fadeDown 1.2s ease;
+    }
+
+    /* 主內容 */
+    main {
+        max-width: 900px;
+        margin: 60px auto; /* 從 80px 改為 60px */
+        padding: 0 20px;
+    }
+    .notice-box {
+        background: #fff;
+        padding: 40px; /* 從 60px 改為 40px */
+        border-radius: 6px;
+        border-top: 3px solid #bfa76f; /* 金色細線 */
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        text-align: center;
+        animation: fadeUp 1.2s ease;
+    }
+    .notice-title {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 18px; /* 從 20px 略減 */
+        letter-spacing: 1px;
+        color: #bfa76f;
+    }
+    .notice-date {
+        font-size: 14px;
+        color: #888;
+        margin-bottom: 28px; /* 從 40px 改為 28px */
+    }
+    .notice-text {
+        font-size: 16px;
+        line-height: 1.9; /* 略緊 */
+        color: #444;
+    }
+
+    /* 頁尾 */
+    footer {
+        text-align: center;
+        padding: 25px 20px;
+        font-size: 13px;
+        color: #888;
+        border-top: 1px solid #e5e1db;
+        margin-top: 80px; /* 從 100px 改為 80px */
+        animation: fadeIn 1.8s ease;
+    }
+
+    /* 動態效果 */
+    @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeDown {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>MOPO</h1>
+</header>
+
+<main>
+    <div class="notice-box">
+        <div class="notice-title">公告</div>
+        <div class="notice-date">掲載日：2025年8月5日</div>
+        <div class="notice-text">
+            MOPO合同会社の公告および通知は、本ページにて掲載いたします。
+        </div>
+    </div>
+</main>
+
+<footer>
+    &copy; 2025 MOPO合同会社
+</footer>
+
+</body>
+</html>
